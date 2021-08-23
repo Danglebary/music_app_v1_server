@@ -9,6 +9,5 @@ def hello_world():
 @app.route('/genres', methods=["GET"])
 @cross_origin()
 def genres():
-    print('ENDPOINT HAS BEEN HIT')
     genres = jsonify(genres=genre_list)
     return genres
