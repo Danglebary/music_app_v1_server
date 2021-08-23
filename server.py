@@ -1,4 +1,3 @@
-from flask import Response
 from api import app, genre_list, jsonify
 from flask_cors import cross_origin
 
